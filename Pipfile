@@ -11,6 +11,8 @@ langchain-openai = "==0.1.0"
 pydantic = "==1.10.13"
 langgraph = "==0.0.30"
 langchainhub = "==0.1.15"
+markdown = "==3.6"
+pdfkit = "==1.0.0"
 
 [dev-packages]
 
