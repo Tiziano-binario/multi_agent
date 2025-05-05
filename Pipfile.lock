@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "51c27b681bdf1b660ce7f97e3243ec27d31057edd3e5cf047f2554ca759c8f51"
+            "sha256": "80b829ce8fc366c580189fa534b4f706bd7ce28823a0cdfd532b279ef6d0f181"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -623,6 +623,24 @@
             ],
             "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
             "version": "==0.0.2"
+        },
+        "langchainhub": {
+            "hashes": [
+                "sha256:89a0951abd1db255e91c6d545d092a598fc255aa865d1ffc3ce8f93bbeae60e7",
+                "sha256:fa3ff81a31946860f84c119f1e2f6b7c7707e2bd7ed2394a7313b286d59f3bda"
+            ],
+            "index": "pypi",
+            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "version": "==0.1.15"
+        },
+        "langgraph": {
+            "hashes": [
+                "sha256:58bb9faf081fdb4490cda8cef4421b01b64b241df92c5556c327b2c83cfd5e0f",
+                "sha256:835d34d66d1ec1cad1825eee682f0c8a85edfd591ab552706a4f4211a3119b88"
+            ],
+            "index": "pypi",
+            "markers": "python_full_version >= '3.9.0' and python_version < '4.0'",
+            "version": "==0.0.30"
         },
         "langsmith": {
             "hashes": [
@@ -1348,6 +1366,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.67.1"
+        },
+        "types-requests": {
+            "hashes": [
+                "sha256:72ff80f84b15eb3aa7a8e2625fffb6a93f2ad5a0c20215fc1dcfa61117bcb2a2",
+                "sha256:c9e67228ea103bd811c96984fac36ed2ae8da87a36a633964a21f199d60baf32"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==2.32.0.20250328"
         },
         "typing-extensions": {
             "hashes": [
