@@ -73,6 +73,9 @@ weather_app = workflow.compile()
 def call_weather_app(query: str):
     inputs = {"input": query, "chat_history": []}
     output = weather_app.invoke(inputs)
+    print("--------------------")
+    print(output)
+    print("--------------------")
     result = output.get("agent_outcome").return_values["output"]  # type: ignore
     steps = output.get("intermediate_steps")
 
