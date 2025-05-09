@@ -13,6 +13,7 @@ langgraph = "==0.0.30"
 langchainhub = "==0.1.15"
 markdown = "==3.6"
 pdfkit = "==1.0.0"
+beautifulsoup4 = "==4.12.3"
 
 [dev-packages]
 
